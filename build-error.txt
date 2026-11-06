@@ -1,0 +1,92 @@
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.student:StudentRegistrationSystem >----------------
+[INFO] Building StudentRegistrationSystem 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ StudentRegistrationSystem ---
+[INFO] Deleting E:\student_registration\target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ StudentRegistrationSystem ---
+[INFO] skip non existing resourceDirectory E:\student_registration\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ StudentRegistrationSystem ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[1,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[1,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[1,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[2,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[3,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[4,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[23,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[23,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[23,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[24,1] reached end of file while parsing
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[1,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[1,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[1,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[2,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[3,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[4,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[5,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[6,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[7,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[9,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[10,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[11,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[12,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[13,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[92,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[92,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[92,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[93,1] reached end of file while parsing
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.501 s
+[INFO] Finished at: 2026-10-02T21:57:17+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile) on project StudentRegistrationSystem: Compilation failure: Compilation failure: 
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[1,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[1,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[1,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[2,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[3,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[4,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[23,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[23,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[23,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/DBConnection.java:[24,1] reached end of file while parsing
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[1,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[1,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[1,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[2,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[3,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[4,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[5,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[6,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[7,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[9,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[10,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[11,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[12,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[13,1] class, interface, enum, or record expected
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[92,1] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[92,2] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[92,3] illegal character: '`'
+[ERROR] /E:/student_registration/src/main/java/com/student/StudentServlet.java:[93,1] reached end of file while parsing
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

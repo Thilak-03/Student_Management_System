@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎓 Student Registration System</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#register">Register</a>
+        <a href="#records">View Records</a>
+    </nav>
+</header>
+
+<main class="container" id="home">
+
+    <section class="top-section">
+
+        <div class="card" id="register">
+            <h2>Student Registration Form</h2>
+
+            <form id="studentForm">
+                <input type="hidden" id="studentId">
+
+                <label for="name">Name *</label>
+                <input id="name" required maxlength="100"
+                       placeholder="Enter student name">
+
+                <label for="registerNo">Register Number *</label>
+                <input id="registerNo" required maxlength="30"
+                       placeholder="Enter register number">
+
+                <label for="department">Department *</label>
+                <select id="department" required>
+                    <option value="">Select Department</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="IT">IT</option>
+                    <option value="MECH">MECH</option>
+                </select>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" required
+                       placeholder="Enter email">
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" required
+                       maxlength="15" pattern="[0-9]{10,15}"
+                       placeholder="10 to 15 digits">
+
+                <div class="buttons">
+                    <button type="submit" id="saveBtn">
+                        Register Student
+                    </button>
+                    <button type="button" id="clearBtn"
+                            class="secondary">
+                        Clear Form
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="message-card">
+            <h2>Welcome!</h2>
+            <p>
+                Register students and manage their details
+                using this web-based application.
+            </p>
+            <p id="status" role="status">
+                Ready to register a student.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="card records" id="records">
+        <h2>Student Records</h2>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Register No.</th>
+                        <th>Department</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTable">
+                    <tr>
+                        <td colspan="7">Loading records...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
